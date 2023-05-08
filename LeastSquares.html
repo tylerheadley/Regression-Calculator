@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>REGRESSION CALCULATOR</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script src="LeastSquares.js"></script>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+    </head>
+    <body>
+        <br>
+        <h1>Regression Calculator</h1>
+        <h2>MATH73 Final Project</h2>
+        <h3>Tyler Headley, Daniel Smith, Jeremy Tan</h3>
+
+        <br>
+        <center>
+            <div id="form">
+                <label for="degree">What degree polynomial would you like to fit your data? </label>
+                <br>
+                <div id="deg">
+                    <input type="number" id="degree" name="integer-input" min="1">
+                </div>
+                <br>
+                <label for="data-input">Enter data points as ordered pairs (x, y):</label>
+                <textarea id="data-input"></textarea>
+                <br>
+                <button onClick="main()">Submit</button>
+            </div>
+        <center>
+        <div id="equation"></div>
+
+
+        <br>
+        <div id="graph-container">
+            <path></path>
+        </div>
+    </body>
+</html>
