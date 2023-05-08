@@ -24,7 +24,7 @@ body {
     grid-row: 1;
   }
 
-#form {
+#form, #equation {
     text-align: center;
     font-family : Avenir Black ;
     color: #FF69B4;
@@ -36,21 +36,15 @@ body {
 }
 
 input, textarea, button {
-    border: 1px solid #FF69B4;
-    
+    border: 1px solid #FF69B4; 
+    background-color: white;
+    color: #FF69B4;
+}
+
+button:hover {
+    background-color: cyan;
 }
 
 input, label {
     display: block;
 }
-
-#equation {
-
-    font-family : Avenir Black ;
-    color: #FF69B4;
-}
-
-/* path {
-    fill: none;
-    stroke: green;
-} */

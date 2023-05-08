@@ -1,7 +1,6 @@
 // JS for website to find regression equation of a dataset
 // Authors: Tyler Headley, Daniel Smith, Jeremy Tan
-
-main();
+// tylerheadley.github.io/Regression-Calculator
 
 // returns matrix AB, which is the matrix multiple of matrix A and B
 function matrixMult(A, B) {
