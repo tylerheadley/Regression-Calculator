@@ -15,7 +15,7 @@ body {
 #graph-container {
     width: 550px;
     height: 450px;
-    background-color: Honeydew;
+    background-color: lightgray;
     display: grid;
     border: 1px black
   }
